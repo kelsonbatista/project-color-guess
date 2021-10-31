@@ -1,13 +1,25 @@
-.top__content {
+.top__content, .set__content {
   width: 85%;
-  margin: 200px auto 0;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: yellow; */
 }
 
+.top__content {
+  margin-top: 200px;
+  margin-bottom: -30px;
+  /* background-color: lime; */
+}
+
+.set__content {
+  margin-top: 0px;
+  font-size: 26px;
+}
+
 .top__title {
   font-size: 32px;
   padding-bottom: 50px;
 }
+
