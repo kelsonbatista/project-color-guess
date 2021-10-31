@@ -16,6 +16,8 @@
 .set__content {
   margin-top: 0px;
   font-size: 26px;
+  display: block;
+  text-align: center;
 }
 
 .top__title {
@@ -23,3 +25,17 @@
   padding-bottom: 50px;
 }
 
+.colors__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ball {
+  width: 80px; 
+  height: 80px; 
+  border: 2px solid black; 
+  border-radius: 250px;
+  margin: 10px;
+  margin-top: 30px;
+}
