@@ -1,0 +1,13 @@
+.top__content {
+  width: 85%;
+  margin: 200px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.top__title {
+  font-size: 32px;
+  padding-bottom: 50px;
+}
